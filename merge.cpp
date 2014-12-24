@@ -29,3 +29,13 @@ vector<string> merge (string[] a, string[] b) {
     return sentence;
 }
 
+string* merge2(string[] a, string[] b) {
+    int aLen = sizeof(a);
+    int bLen = sizeof(b);
+    int sLen = aLen + bLen;
+    string* s = new string[sLen];
+    int i = 0;
+    for (; i < aLen; ++i) s[i] = a[i];
+    for (; i < sLen; ++i) s[i] = b[i];
+    return s;
+}
