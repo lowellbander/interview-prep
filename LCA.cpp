@@ -5,7 +5,7 @@ struct Node {
     Node* right;
 };
  
-// Cracking the Coding Interview, Question 4.5
+// Cracking the Coding Interview, Question 4.7
 // Design an algorithm and write code to find the first common ancestor of two
 // nodes in a binary tree. Avoid storing additional nodes in a data structure.
 Node* LCA (Node* root, Node* p, Node* q) {
